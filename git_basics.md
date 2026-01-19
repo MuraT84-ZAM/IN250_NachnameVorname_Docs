@@ -33,3 +33,10 @@ Hinweis: File Name .md wurde nachträglich angepasst
 
 8. Commit Cheatsheet
 * Commit wurde erstellt mit dem richtigen Titel
+![cheatsheet-committing](cheatsheet-committing.jpg)
+![committin-view](committin-view.jpg)
+
+9. GitIgnor-File
+* File wurde angelegt und gespeichert
+![git-ignore-file](git-ignore-file.jpg)
+
