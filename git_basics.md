@@ -40,3 +40,47 @@ Hinweis: File Name .md wurde nachträglich angepasst
 * File wurde angelegt und gespeichert
 ![git-ignore-file](git-ignore-file.jpg)
 
+* File wurde committed
+![git-ignore-file-committed](git-ignore-file-committed.jpg)
+
+10. Zweites lokales Repository und Remote Origin
+
+Es wurde ein weiteres lokales Repository in einem neuen Ordner erstellt und in Visual Studio Code geöffnet.
+
+* Schritte
+1. Neuer leerer Ordner wurde erstellt und in VS Code geöffnet.
+2. Das Repository wurde über die GUI mit Git Init initialisiert.
+3. Der bestehende GitHub-Repository wurde als Remote Origin hinzugefügt.
+4. Das lokale Repository wurde mit dem Remote synchronisiert.
+
+* Kontrolle der Tätigkeiten
+- Der Remote **origin** ist vorhanden und zeigt auf das bestehende GitHub-Repository.
+- Der Branch **main** ist sichtbar.
+- Die Verbindung wurde erfolgreich über GitLens überprüft.
+
+![lokale-repo-zeigt-auf-github-repo](lokale-repo-zeigt-auf-github-repo.jpg)
+
+* Beobachtung
+Mehrere lokale Repositories können mit demselben GitHub-Repository verbunden werden.  
+Änderungen, die in einem lokalen Repository gepusht werden, können in einem anderen lokalen Repository durch Synchronisation übernommen werden.
+
+11. Weshalb wird Git im SW-Entwicklungsprozess verwendet
+
+| Schlüsselwort | Beschreibung |
+| ----------- | ----------- |
+| Tracebility | Via Git können Änderungen am code nachvollzogen werden d.h. wer hat was wann geändert |
+| Kollaboration | Mehrere Personen können auf der gleichen Plattform bequem zusammenarbeiten |
+|Wiederherstellung| Frühere Versionen können einfach wiederhergestellt werden
+|Backup | Der Code wir lokal und remote sichergestellt d.h. redundant verfügbar.
+
+![fire-on-the-roof](fire-on-the-roof.jpg)
+* weshalb ist git commit/push wichtiger als das eigene leben?
+
+| Schlüsselwort | Beschreibung |
+| ----------- | ----------- |
+|Commit| Die eigene Arbeit wird lokal gespeichert
+|Push| Die eigene Arbeit wird extern gespeicher d.h. das Backup
+
+sobald der Code gesichert ist kann man in Ruhe sterben
+![rip-bro.jpg](rip-bro.jpg)
+
