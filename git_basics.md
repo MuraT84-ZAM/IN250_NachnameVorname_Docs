@@ -84,3 +84,13 @@ Mehrere lokale Repositories können mit demselben GitHub-Repository verbunden we
 sobald der Code gesichert ist kann man in Ruhe sterben
 ![rip-bro.jpg](rip-bro.jpg)
 
+12. Dokumentation ins Repository aufnehmen
+
+* Die Datei `git_basics.md` wurde gespeichert.
+* Die Änderungen wurden über die Source-Control-Ansicht in Visual Studio Code committed.
+* Der Commit wurde mit dem bestehenden GitHub-Repository synchronisiert.
+
+### Ergebnis
+- Die Dokumentation ist Teil des Repositories.
+- Der lokale Stand und das Remote-Repository sind identisch.
+- Die Aufgabe ist vollständig abgeschlossen.
